@@ -55,13 +55,45 @@
       </div>
       <div class="button">
         <button class="learn-more-button">LEARN MORE</button>
-        <button class="register-button"><b>REGISTER</b></button>
+        <button type="button" class="register-button" id="register" data-toggle="modal" data-target="#registerModal"><b>REGISTER</b></button>
       </div>
       <div class="upcoming-training">
-        <p>See Upcoming Training <i class="right"></i></p>
+        <p><button class="upcoming" id="upcoming-training" data-toggle="modal" data-target="#post-comment">See Upcoming Training <i class="right"></i></button></p>
       </div>
     </div>
-
+     
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-full" role="document">
+          <div class="modal-content">
+              <p class="modal-title">HELP! HOW DO I RUN THIS ASSESSMENT? CONDUCTING THE HELP AND DAYC-2</p>
+              <form>
+                <div class="form-group">
+                  <input type="name" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+                </div>
+              </form>
+              <div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="cancel-registration"><b>CANCEL</b></button>
+                <button type="register" class="btn btn-primary" id="confirm-registration"><b>Register</b></button>
+              </div>
+          </div>
+      </div>
+    </div> 
+    
+    <div class="modal fade" id="post-comment" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Post a Comment</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary">Post</button>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
