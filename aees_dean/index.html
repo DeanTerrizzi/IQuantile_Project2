@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
     <title>AEES</title>
   </head>
@@ -17,10 +17,10 @@
       <img id="img1" src="\Assets 3840x2160\kid therapist on chairs2.png" alt="therapist-chairs">
       <div class="nav-bar">
         <div class="logo">
-          <img class="logo-img" src="\Assets 3840x2160\logo.png" alt="logo">
+          <a href="index.html"><img class="logo-img" src="\Assets 3840x2160\logo.png" alt="logo"></a>
         </div>
         <div class="menu">
-          <a class="menu-link" href="#" style="text-decoration:none; color:black"><div class="box-shadow-menu">&ensp;Menu</div></a>
+          <a class="menu-link" onclick="openNav()" style="text-decoration:none; color:black"><div class="box-shadow-menu">&ensp;Menu</div></a>
         </div> 
       </div>
       <div class="img-txt">
@@ -29,6 +29,19 @@
         <p id="denis-waitley">Denis Waitley</p>
         <p id="arrow">&or;</p>
       </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#" style="color:#20BDBF">Home</a>
+      <a href="#">ABA</a>
+      <a href="#">Clinical News</a>
+      <a href="#">Career</a>
+      <a href="#">Contact</a>
+      <hr>
+      <a href="#">Service Coordinator</a>
+      <a href="#">Service Provider</a>
+      <a href="#">Parents</a>
     </div>
 
     <div>
@@ -99,5 +112,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      /* Set the width of the side navigation to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "947.81px";
+      }
+
+      /* Set the width of the side navigation to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
   </body>
 </html>

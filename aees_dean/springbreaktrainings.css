@@ -1,0 +1,447 @@
+html, 
+body {
+    height: 100%;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0; /* Stay at the top */
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 542.81px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: .9;
+    z-index: 4; /* Stay on top */
+    right: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 46.94px 0px 8px 160.31px;
+    text-decoration: none;
+    font-size: 54px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #818181;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 125px;
+    padding-top: 160.31px;
+}
+/* horizontal line */
+hr { 
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 160.31px;
+    margin-right: 160.31px;
+    border-style: inset;
+    border-width: 1px;
+}
+.top-img {
+    position:relative;
+    width: 3840px;
+}
+.top-img:before {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgb(0, 0, 0) 100%);
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.nav-bar {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0px; 
+    width: 100%;
+    height: 132.78px; 
+    opacity: .9;
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    z-index: 3;
+}
+.logo {
+    float: left;
+    margin-left: 390.75px;
+    margin-top: 15px;
+}
+#logo-small {
+    display: none;
+}
+.menu {
+    margin-right: 390.7px;
+    margin-top: 32px;
+    float: right;
+    cursor: pointer;
+}
+#superheroes-small {
+    display: none;
+}
+.box-shadow-menu {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    position: relative;
+    padding-left: 1.25em;
+    font-size: 48px;
+}
+.box-shadow-menu:before { 
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.45em;
+    width: 1em;
+    height: 0.15em;
+    background: black;
+    box-shadow: 
+      0 0.25em 0 0 black,
+      0 0.5em 0 0 black;
+}
+.img-txt {
+    position: absolute;
+    top: 809.6px;
+    left: 0px; 
+    width: 1132px;
+    height: 200.18px; 
+    z-index: 2;
+    margin-left: 1340.91px;
+}
+#join-us {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 77px;
+    color: #FFFFFF;
+    text-align: center;  
+    line-height: 130%;
+}
+#seeking {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    width: 1140px;
+    font-weight: lighter;
+}
+.page-text {
+    margin-top: 181.09px;
+    margin-left: 812.42px;
+    width: 2215.17px;
+}
+#path-7-small {
+    display: none;
+}
+#dates {
+    color: #808080;
+    font-size: 37px;
+    margin-top: 96.73px;
+}
+#attention {
+    font-size: 48px;
+    margin-top: 97.1px;
+    font-weight: 600;
+}
+#attention-text {
+    font-size: 37px;
+    margin-top: 70.82px;
+}
+#tuesday {
+    font-size: 48px;
+    margin-top: 119.69px;
+}
+#tuesday-text {
+    font-size: 37px;
+    margin-top: 45.82px;
+}
+#register {
+    font-size: 37px;
+    margin-top: 87.98px;
+}
+#workshop-info {
+    font-weight: 600;
+    margin-top: 119.69px;
+    font-size: 48px;
+}
+#workshop-1 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top: 68.31px;
+}
+#workshop-2 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top:118.98px;
+}
+#workshop-3 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top:119.47px;
+}
+#workshop-4 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top:66.98px;
+}
+#workshop-5 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top:108.47px;
+}
+#workshop-6 {
+    font-weight: 600;
+    font-size: 37px;
+    margin-top:119.47px;
+}
+#workshop-text {
+    font-size: 37px;
+    margin-top: 56.98px;
+}
+.copyright {
+    margin-top: 222.95px;
+    font-size: 24px;
+    color: #636463;
+    text-align: center;
+}
+@media (max-width: 1366px) {
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        top: 0; /* Stay at the top */
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 193px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        opacity: .9;
+        z-index: 4; /* Stay on top */
+        right: 0;
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 16px 0px 0px 57px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #f1f1f1;
+        display: block;
+        transition: 0.3s
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #818181;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        font-size: 50px;
+        padding-top: 57px;
+    }
+    
+    /* horizontal line */
+    hr { 
+        display: block;
+        margin-top: 24px;
+        margin-bottom: 8px;
+        margin-left: 57px;
+        margin-right: 57px;
+        border-style: inset;
+        border-width: 1px;
+    }
+    .top-img {
+        position:relative;
+        width: 1366px;
+    }
+    .top-img:before {
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgb(0, 0, 0) 100%);
+        content: '';
+        position:absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .nav-bar {
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        left: 0px; 
+        width: 100%;
+        height: 70px; 
+        opacity: .9;
+        background-color: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        z-index: 3;
+    }
+    .logo {
+        float: left;
+        margin-left: 139px;
+        margin-top: 15px;
+    }
+    #logo-big {
+        display: none;
+    }
+    #logo-small {
+        display: block;
+    }
+    .menu {
+        margin-right: 139px;
+        margin-top: 23px;
+        float: right;
+    }
+    #superheroes-big {
+        display: none;
+    }
+    #superheroes-small {
+        display: block;
+    }
+    .box-shadow-menu {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        position: relative;
+        padding-left: 1.25em;
+        font-size: 14px;
+    }
+    .box-shadow-menu:before { 
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.45em;
+        width: 1em;
+        height: 0.15em;
+        background: black;
+        box-shadow: 
+          0 0.25em 0 0 black,
+          0 0.5em 0 0   black;
+    }
+    .img-txt {
+        position: absolute;
+        top: 288px;
+        left: 0px; 
+        width: 412px;
+        height: 77px; 
+        z-index: 2;
+        margin-left: 477px;
+    }
+    #join-us {
+        font-family: brandon-grotesque, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 28px;
+        color: #FFFFFF;
+        text-align: center;  
+        line-height: 130%;
+    }
+    #seeking {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        width: 412px;
+        font-weight: lighter;
+    }
+    .page-text {
+        margin-top: 64.42px;
+        margin-left: 289px;
+        width: 788px;
+    }
+    #path-7-big {
+        display: none;
+    }
+    #path-7-small {
+        display: block;
+    }
+    #dates {
+        color: #808080;
+        font-size: 14px;
+        margin-top: 34.41px;
+    }
+    #attention {
+        font-size: 16px;
+        margin-top: 44px;
+        font-weight: 600;
+    }
+    #attention-text {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #tuesday {
+        font-size: 16px;
+        margin-top: 44px;
+    }
+    #tuesday-text {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #register {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #workshop-info {
+        font-weight: 600;
+        margin-top: 44px;
+        font-size: 16px;
+    }
+    #workshop-1 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    #workshop-2 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #workshop-3 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    #workshop-4 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    #workshop-5 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    #workshop-6 {
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    #workshop-text {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    .copyright {
+        margin-top: 121px;
+        font-size: 12px;
+        color: #636463;    
+        text-align: center;
+    }
+}

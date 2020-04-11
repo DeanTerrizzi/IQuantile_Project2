@@ -1,0 +1,318 @@
+html, 
+body {
+    height: 100%;
+}
+.top-img {
+    position:relative;
+}
+.top-img:before {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 50%,rgb(0, 0, 0) 100%);
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.nav-bar {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0px; 
+    width: 100%;
+    height: 132.78px; 
+    opacity: .9;
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    z-index: 3;
+}
+.logo {
+    float: left;
+    margin-left: 390.75px;
+    margin-top: 15px;
+}
+.menu {
+    margin-right: 390.7px;
+    margin-top: 32px;
+    float: right;
+}
+.box-shadow-menu {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    position: relative;
+    padding-left: 1.25em;
+    font-size: 48px;
+}
+.box-shadow-menu:before { 
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.45em;
+    width: 1em;
+    height: 0.15em;
+    background: black;
+    box-shadow: 
+      0 0.25em 0 0 black,
+      0 0.5em 0 0 black;
+}
+.img-txt {
+    position: absolute;
+    top: 958.59px;
+    left: 0px; 
+    width: 3840px;
+    height: 1200.35px; 
+    z-index: 2;
+}
+.path1 {
+    margin-top: 533.89px;
+    margin-left: 1824.42px;
+}
+#the-greatest-gift {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 78px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 44.32px;
+    margin-left: 590.2px;
+    margin-right: 646.8px;
+    line-height: 130%;
+}
+#denis-waitley {
+    margin-top: 44px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 37px;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#arrow {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 37px;
+}
+#aees-mission {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 93px;
+    color: #20BDBF;
+    margin-top: 236.13px;
+    margin-left: 390.75px;
+}
+#mission-txt1::first-letter {
+    font-size: 200%;
+    vertical-align: bottom;
+    line-height: .9em;
+}
+#mission-txt1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 148.44px;
+    margin-left: 390.75px;
+    width: 2128.1px;
+    height: 288.19px;
+    text-align: left;
+    font-size: 48px;
+}
+#mission-txt2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 37px;
+    color: #636463;
+    text-align: left;
+    margin-left: 390.75px;
+    margin-top: 148.69px;
+    margin-right: 390.75px;
+    width: 3058.51px;
+    height: 471.64px;
+}
+.register {
+    margin-top: 169.97px;
+    margin-left: 391px;
+    position: relative;
+    width: 3058.51px;
+}
+.register:before {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.help {
+    font-family: brandon-grotesque, sans-serif;
+    position: absolute; 
+    top: 287px;
+    left: 714.28px;
+    font-size: 93px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 1700px;
+    z-index: 2;
+    line-height: 109%;
+}
+.training {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute; 
+    top: 688.99px;
+    left: 714.28px;
+    font-size: 54px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 1631px;
+    z-index: 2;
+    line-height: 109%;
+}
+.button {
+    position: absolute; 
+    top: 950.43px;
+    left: 714.28px;
+    font-size: 37px;
+    z-index: 2;
+}
+.learn-more-button {
+    width: 331.71px;
+    height: 95.58px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.register-button {
+    width: 331.71px;
+    height: 95.58px;
+    margin-left: 42.17px;
+    color: #FFFFFF;
+    background-color: #20BDBF;
+    border-color: #20BDBF;
+    cursor: pointer;
+}
+.upcoming-training {
+    position: absolute; 
+    top: 1152.95px;
+    left: 714.28px;
+    z-index: 2;
+    font-size: 48px;
+}
+button.upcoming {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+i {
+    border: solid #FFFFFF;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 15px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+.modal-title {
+    font-size: 67px;
+    text-align: left;
+    width: 1288px;
+    margin-left: 1273.44px;
+    margin-top: 450px;
+    margin-bottom: 180.82px;
+}
+.form-control {
+    font-size: 44px;
+    width: 1295.93px;
+    height: 200px;
+    margin-left: 1273.44px;
+}
+.form-control {
+    border: 0;
+}
+.form-control:focus {
+    border: 0;
+    box-shadow: none;
+    outline:none !important;
+    border-bottom: 2px solid rgb(0, 225, 255);
+}
+#cancel-registration {
+    font-size: 39px;
+    width: 337.71px;
+    height: 95.58px;
+    margin-left: 1273.44px;
+    margin-top: 181.32px;
+}
+#confirm-registration {
+    font-size: 39px;
+    width: 337.71px;
+    height: 95.58px;
+    margin-left: 44.98px;
+    margin-top: 181.32px;
+    background-color: #20BDBF;
+    border-color: #20BDBF;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    top: 0; /* Stay at the top */
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 542.81px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: .9;
+    z-index: 4; /* Stay on top */
+    right: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 46.94px 0px 8px 160.31px;
+    text-decoration: none;
+    font-size: 54px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #818181;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 125px;
+    padding-top: 160.31px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+/* horizontal line */
+hr { 
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 160.31px;
+    margin-right: 160.31px;
+    border-style: inset;
+    border-width: 1px;
+}
